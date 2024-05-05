@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ev3-Vocabulary</title>
+
+    <link rel="icon" href="https://i.ibb.co/9Ztfdxp/ROBOTICS.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="2accordion.css">
+    <link rel="stylesheet" href="footer.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="">
+                    <img src="https://i.ibb.co/mFgh2Hz/IMG-1987.png" alt="logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#home"><img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt=""> Home</img></a></li>
+                <li class="with-dropdown">
+                    <a href="#topic-buttons"><img src="https://i.ibb.co/8XYKTgh/reading-book-1.png" alt=""> Topics ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">Movement</a></li>
+                        <li><a href="#">Motor</a></li>
+                        <li><a href="#">Display</a></li>
+                        <li><a href="#">Sound</a></li>
+                        <li><a href="#">Control</a></li>
+                        <li><a href="#">Sensors</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Operator</a></li>
+                        <li><a href="#">Variable</a></li>
+                        <li><a href="#">My Block</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#wro"><img src="https://i.ibb.co/Drnm7cM/competition.png" alt=""> About WRO</img></a></li>
+
+                <!-- Dropdrown of WRO: experiences. tips -->
+            </ul>
+        </nav>
+    </header>
+
+<div class="main-wrapper">
+        <div class="header-container">
+            <div class="title-header">
+                <h3>The 2 big things:</h3>
+            </div>
+            <div class="category-title">
+                <a href=""><button id="home-page" class="home-icon"> <img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt="home-icon-silhouette" height="30"></button></a>
+                <a href="#ev3-parts"><button class="ev3-parts-button">EV3 robot parts</button></a>
+                <a href="#accordion-questions"><button class="words-button"> Special words</button></a>
+            </div>
+            <hr class="divider-line">
+            <div class="header" id="ev3-parts">
+                <div class="title">
+                   <a href=""><img src="https://i.ibb.co/4PjH6Rq/Sensors-motors.png" alt="table-sensor-motors"></a>
+                </div>
+                <div class="image-title">
+                    <a href=""><img src="https://i.ibb.co/LCj6Mv8/Ev3-Set.png" alt="ev3-set"></a>
+                </div>
+                <div class="image-title">
+                    <a href=""><img src="https://i.ibb.co/541fs0R/Parts-of-3ve.png" alt="ev3-set"></a>
+                </div>
+                <div class="image-title">
+                    <a href=""><img src="https://i.ibb.co/Vj6rcC4/ports.png" alt="ev3-set"></a>
+                </div>
+            </div>
+        </div>
+
+<!-- Accordion 2: questions and answers -->
+        <div class="accordion-container2" id="accordion-questions">
+            <h4 class="title-acc2"><span>Special words</span> 
+            </h4>
+            <h5>We are going to use these words a lot!</h5>
+            <hr class="break2">
+
+            <div class="tab">
+                <input type="radio" name="Accc" id="Accc1">
+                <label for="Accc1">
+                    <h2>01</h2>
+                    <h3>When the program starts</h3>
+                </label>
+                <div class="content">
+                    <p>Make the robot begin moving</p>
+                    <img src="https://i.ibb.co/tXPKZMM/start-block.png" alt="Start-block">
+                    <p>And then, press start:</p>
+                    <img src="https://s9.gifyu.com/images/SZjZq.gif" alt="Press stop"/>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="Accc" id="Accc2">
+                <label for="Accc2">
+                    <h2>02</h2>
+                    <h3>START/STOP MOVING - Movement(Pink)</h3>
+                </label>
+                <div class="content">
+                    <p>These blocks are for Movements motors only</p>
+                    <p>For [Start moving] blocks, you need to add a [Stop] movement. If not,  the robot will move forever.</p>
+                    <div class="img-p-together">
+                        <div>
+                            <p>-> Start moving blocks:</p><img src="https://i.ibb.co/F0PSDht/Pink-moving-Block.png" alt="start-moving">
+                        </div>
+                        <div>
+                            <p>-> Stop moving blocks:</p><img src="https://i.ibb.co/7rvcg1Q/Stop-block.png" alt="stop-motor">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="Accc" id="Accc3">
+                <label for="Accc3">
+                    
+                    <h2>03</h2>
+                    <h3>Conditions</h3>
+                </label>
+                <div class="content">
+                    <p> Conditions in EV3 programming are like special rules that help your robot make decisions. It's like giving your robot clues to figure out what to do next.
+                    </p>
+                    <p>For example:</p>
+                    <p>Imagine you're programming your robot to go through a maze.</p>
+
+                    <p>
+                        You might use a condition like this: 'If you see a wall in front of you, turn left.' This way, your robot knows what to do when it encounters a wall – it turns left to find its way around!</p>
+
+                    <img src="https://j.gifs.com/v1w76A.gif" alt="maze-robot">
+                </div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="Accc" id="Accc4">
+                <label for="Accc4">
+                    <h2>04</h2>
+                    <h3>REPEAT UNTIL</h3>
+                </label>
+                <div class="content">
+                    <p>Is a loop that: [keeps doing something] UNTIL [a certain condition is met]</p>
+                    <p>It is just like when you keep playing a game until you win or finish a level.</p>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="Accc" id="Accc5">
+                <label for="Accc5">
+                    <h2>05</h2>
+                    <h3>WAIT UNTIL
+                    </h3>
+                </label>
+                <div class="content">
+                    <p> Telling your robot to stop and wait patiently until a certain condition is met </p>
+                    <p>It's just like waiting for your turn in a game before you can play again!</p>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="Accc" id="Accc6">
+                <label for="Accc6">
+                    <h2>06</h2>
+                    <h3>When [(Motors)OR(sensors)] is pressed</h3>
+                </label>
+                <div class="content">
+                    <p>Something will happen when you either touch a motor or activate a sensor.
+                    </p>
+                    <p>It's like saying, "If you touch the motor or activate a sensor, something cool will happen!"</p>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="Accc" id="Accc7">
+                <label for="Accc7">
+                    <h2>07</h2>
+                    <h3>If-Else</h3>
+                </label>
+                <div class="content">
+                    <p> 'If-Else' is like giving your robot a choice. 
+                    </p>
+                    <p>'If something happens, do this. But if something else happens, do that instead!' </p>
+                    <p>So, it's like giving your robot different options depending on what's going on.</p>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="Accc" id="Accc8">
+                <label for="Accc8">
+                    <h2>08</h2>
+                    <h3>Degrees/Rotations</h3>
+                </label>
+                <div class="content">
+                    <p> It's telling the robot how far to move or how much to turn using angles(degrees) or rotations.
+                    </p>
+                    <div class="img-p-together">
+                        <div>
+                            <p>Degrees:</p><img src="https://www.mathsisfun.com/geometry/images/protractor.svg" alt="degrees-vocab">
+                        </div>
+                        <div>
+                            <p>Rotations:</p><img src="https://cdn-icons-png.flaticon.com/512/54/54529.png" alt="rotation-vocab">
+                        </div>
+                        
+                    </div>
+                    <p>Don't worry if you don't know this. You'll eventually learn this in math</p>
+                </div>
+            </div>
+            <div class="tab">
+                <input type="radio" name="Accc" id="Accc9">
+                <label for="Accc9">
+                    <h2>09</h2>
+                    <h3>STOP and EXIT the program</h3>
+                </label>
+                <div class="content">
+                    <p> 
+                        STOP means telling your robot to take a break and EXIT means it's time for your robot to say goodbye to the program!
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+<!-- Footer -->
+        <div class="footer-container">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#topic-buttons">Topics</a></li>
+                    <li><a href="#wro">About WRO</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Ashley Lin </span> | Senior 2024 | American Nicaraguan School</p>
+            </div>
+        </div>
+
+</div>
+
+    
+</body>
+</html>
